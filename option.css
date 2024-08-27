@@ -1,0 +1,34 @@
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem auto;
+  height: 12rem;
+  width: 20rem;
+}
+
+.div1 {
+  display: flex;
+  border: none;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+.div1 img {
+  height: 100%;
+  width: 100%;
+  margin: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  width: 20rem;
+  background: white;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 0px 0px 1.2rem 1.2rem;
+  position: relative;
+  bottom: 0;
+}
